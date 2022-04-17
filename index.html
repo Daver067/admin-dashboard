@@ -6,44 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
-    <title>Document</title>
+    <title>Daver admin site</title>
 </head>
 <body>
     <div class="container">
 
         <div class="nav">
-            <div>Dashboard</div>
+            <div class="dashboard"> <img src="images/space_dashboard_white_24dp.svg" alt="dashboard"><h3>Dashboard</h3></div>
             <div class="links">
                 <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
+                    <li><a href=""><img src="images/home.svg" alt="" srcset=""> Home</a></li>
+                    <li><a href=""><img src="images/profile.svg" alt="" srcset=""> Profile</a></li>
+                    <li><a href=""><img src="images/message.svg" alt="" srcset=""> Messages</a></li>
+                    <li><a href=""><img src="images/history.svg" alt="" srcset=""> History</a></li>
+                    <li><a href=""><img src="images/task.svg" alt="" srcset=""> Tasks</a></li>
+                    <li><a href=""><img src="images/group.svg" alt="" srcset=""> Communities</a></li>
                 </ul>
             </div>
+            <div class="empty"></div>
             <div class="links">
                 <ul>
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
+                    <li><a href=""><img src="images/settings.svg" alt="" srcset=""> Settings</a></li>
+                    <li><a href=""><img src="images/support.svg" alt="" srcset=""> Support</a></li>
+                    <li><a href=""><img src="images/privacy.svg" alt="" srcset=""> Privacy</a></li>
                 </ul>
             </div>
+            <div class="empty"></div>
         </div>
 
         <div class="header">
             <div class="top-header">
-                <input type="text" placeholder="Search">
-                <img src="" alt="profile pic">
-                <h3>User Name</h3>
+                <div class="input">
+                    <label for="search"><img src="images/search.svg" alt="search" srcset=""></label>
+                    <input type="text" placeholder="Search" name="search" id="search">
+                </div>
+                <div class="profilePic"><img src="images/sky.png" alt="profile pic"></div>
+                <div><h3>Dave Diemert</h3></div>
             </div>
             <div class="bottom-header">
-                <img src="" alt="profile pic">
-                <h2>User Name @UserTag</h2>
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
+                <div class="profilePic"><img src="images/sky.png" alt="profile pic"></div>
+                <div class="userName"><h2>Dave Diemert @Daver067</h2></div>
+                <div class="empty"></div>
+                <div class="buttons">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
             </div>
         </div>
 
